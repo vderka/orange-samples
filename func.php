@@ -1,3 +1,5 @@
+<?php
+
 function zen_get_dino_prom($product_id) 
 {
     global $db;
