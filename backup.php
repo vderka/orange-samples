@@ -7,6 +7,8 @@
 	$password   = DB_SERVER_PASSWORD;
 	$dbname     = DB_DATABASE;
 
+
+
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	// Check connection
