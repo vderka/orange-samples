@@ -5,7 +5,7 @@ $pokaz=$_GET["pokaz"];
 
 $warunek="";
 if  ($pokaz=="on") $warunek=" AND products.products_status=1 ";
-if  ($pokaz=="off") $warunek=" AND products.products_status=0 ";
+if  ($pokaz=="off") $warunek=" AND products.products_status=0   ";
 
 /*********************************************/
 
